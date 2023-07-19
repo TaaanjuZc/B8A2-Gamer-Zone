@@ -1,14 +1,29 @@
 /* font collection */
-/* add fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
 
 /* something something need to  write */
-.felx-between {
+*{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.primary-btn {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%); 
+  border: 1px solid #FF42A5; 
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 /* header styles section */
 
@@ -86,4 +101,70 @@ nav ul {
   color: #534C64;
   font-size: 20px;
   font-weight: 500;
+}
+
+.btn-1 {
+  border-radius: 48px;
+}
+
+.btn-2 {
+  margin-left: 15px;
+  border-radius: 48px;
+  background: #4EC5F7;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid #4EC5F7;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* main style section */
+main {
+  max-width: 1440px;
+  margin: 70px auto;
+}
+
+.play-games-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.play-games-content h3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.play-games-content span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play-games-content p {
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.inline-right {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  top: -195px;
+  left: 113px;
+
+}
+
+.pg-box {
+  width: 426px;
+  margin-top: 127px;
 }
