@@ -200,10 +200,44 @@ main {
   font-size: 16px;
   font-weight: 600;
   margin-right: 40px;
+  cursor: pointer;
 }
 
-.games h3:hover{
+/* h3:hover  {
   color: #f136aa;
 
+} */
+
+/* footer style section */
+
+
+.footer-bar {
+  justify-content: space-around;
 }
 
+footer {
+  height: 636px;
+  background: #0B0223;
+  text-align: center;
+  color: #fff;
+}
+
+
+.footer-links a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.footer-icons i{
+  margin-right: 40px;
+}
+
+footer > p {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
